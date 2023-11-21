@@ -1,0 +1,6 @@
+SELECT  sender_id, COUNT(message_id)
+FROM messages
+WHERE DATE_TRUNC('MONTH', sent_date)::DATE = '2022-08-01'::DATE
+GROUP BY 1
+ORDER BY 2 DESC
+LIMIT 2;
