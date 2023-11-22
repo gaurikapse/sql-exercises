@@ -6,8 +6,9 @@ There is one folder for each source of questions. Each folder contains two sub-f
 
 ### Table of Contents
 - [DataLemur](datalemur/toc.md)
-
+- [StrataScratch](stratascratch/toc.md)
 
 **To do:**
-- Add markdown files containing the problem statement and schema for each problem.
-- Add solved problems from Stratascratch and Leetcode.
+- Format problem statements for StrataScratch problems.
+- Add medium and easy difficulty problems from StrataScratch.
+- Add solved problems from Leetcode.
